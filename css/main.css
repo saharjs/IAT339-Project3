@@ -1,0 +1,219 @@
+body{
+  overflow-x: hidden;
+  width: 100%;
+  height: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: normal;
+}
+*, *:after, *:before {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+#content{
+  margin: 3rem;
+}
+#photo-cover{
+  height: 18rem;
+  width: 100%;
+  color:white;
+  text-align: center;
+  padding: 10rem;
+  background: black;
+  z-index: -1;
+  margin-top: -4rem;
+  font-family: 'Muli', sans-serif;
+}
+
+#navigation{
+  z-index: 3;
+  margin-top: 2rem;
+  padding-left: 2rem;
+
+}
+
+.styleguid-subtitle{
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  font-size: 2rem;
+}
+.nav-item{
+  color:#d3d3d3;
+  text-decoration: none;
+  padding-left: 2rem;
+}
+
+h1{
+  font-size:2.4rem;
+  color:#404040;
+  font-weight: bold;
+}
+h2 {
+  font-size: 2rem;
+  color:#181818;
+}
+h2 {
+  font-size: 1.6rem;
+  color:#303030
+}
+.bold-content{
+  font-weight: bold;
+    font-size: 1.2rem;
+}
+.body-content{
+  color:black;
+  font-size: 1.2rem;
+}
+
+
+
+/*forms*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],input[type=email],input[type=number],select,textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: .2rem; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    height: 2.5rem;
+    width: 100%;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+#form-elements{
+  margin-top: 6rem;
+}
+
+input[type=submit]:hover {
+    background-color: darkgray;
+    color:black;
+    font-weight: bold;
+    width: 100%;
+}
+
+#subject{
+  height: 10rem;
+}
+/* Add a background color and some padding around the form */
+.form-container{
+    margin-top: 4rem;
+    border-radius: .2rem;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    color:gray;
+
+}
+
+
+.contact-subtitle{
+  font-weight: bolder;
+}
+
+#submit-btn{
+  width: 40%;
+}
+
+#navigation-section{
+  margin-top: 4rem;
+}
+.navigation-section-item{
+  text-decoration: none;
+  color:#282828;
+  margin-left: 4rem;
+  text-align: center!important;
+}
+
+.navigation-section-item:hover{
+  border-bottom: 1px solid gray;
+  color:##686868;
+  font-weight: bold;
+
+}
+hr{
+  margin-bottom: 4rem;
+}
+
+#flex-box-grid{
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: darkgray;
+  text-align: center;
+  height: 15rem;
+}
+#flex-box-cover{
+  width: 100%;
+  height: 10rem;
+}
+.flex-box-text{
+  margin: auto;
+  width: 100%;
+}
+#flex-box-content-items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: darkgray;
+  width: 100%;
+  height: 40rem;
+}
+
+.flex-box-content-item{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  width: 100%;
+
+}
+.flex-box-content-item-right{
+  width:50%;
+  background-color: #D3D3D3;
+}
+
+.flex-box-content-item-left{
+  width: 50%;
+  background-color: #BEBEBE;
+}
+img{
+  width: 40%;
+  height: auto;
+}
+#images-section{
+  margin-top: 40rem;
+}
+.color{
+
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10px;
+  margin: 0rem 2rem;
+}
+.color-pal{
+  display: flex;
+  flex-direction: row;
+}
+#color-pallet-section{
+  margin-top: 5rem;
+}
+#black{
+  background:black;
+}
+#blue{
+  background:darkblue;
+}
+#gray{
+  background:gray;
+}
